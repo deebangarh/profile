@@ -5,72 +5,55 @@ body {
   font-weight: 300;
 }
 
-h1 {
-  color:#264653;
-  font-family:'Open Sans', sans-serif;
-  font-size: 50px;
-  line-height:50%;
-}
-h2 {
-  color:#2a9d8f;
-  font-family:'Open Sans', sans-serif;
-  font-size: 30px;
-  line-height:100%;
-}
+
 p {
   color:#e9c46a;
   font-family:'Open Sans', sans-serif;
   font-size: 20px;
   line-height:100%;
 }
+
 ul {
   color:#f8f8f7;
   text-decoration:double;
 }
+
 a:hover {
   background-color: #e76f51;
 }
 
-#logo {
-  width: 400px;
+.center {
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-all {
-  border: 2px solid #394032;
+  border: 2px #394032;
   background:rgb(255, 255, 255);
   border-radius:3%;
   box-shadow:10%;
-  width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px;
-}
-
-.container {
   width: 500px;
   margin: 0 auto;
   text-align: center;
-  border:#264653;
+  padding: 40px;
+}
+
+/* .container {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border:2px #264653;
   box-shadow:10%;
   background:rgb(255, 255, 255);
 
-}
+} */
 
-.list-inline > li {
+li {
   display: inline-block;
-  padding: 20px 20px;
+  padding: 0px 20px;
   list-style: none;
   padding-left: 10px;
-}
-
-img {
-  border-radius:5%;
-  text-align: center;
-}
-
-@media screen and (max-width: 700px) {
-  .container {
-    background-color:rgb(148, 28, 28);
-    width: 300px;
-  }
 }
