@@ -47,7 +47,7 @@ a:hover {
   width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding: 40px;
+  padding: 10px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,4 +70,19 @@ li {
   padding: 0px ;
   list-style: none;
   padding-left: 10px;
+
+}
+.intro {
+  border: 2px  #394032;
+  background: rgb(255, 255, 255);
+  border-radius: 3%;
+  box-shadow: 10%;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
